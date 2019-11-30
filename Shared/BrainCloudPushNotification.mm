@@ -217,7 +217,7 @@
     if (fcmContent != nil) fcm = [fcmContent UTF8String];
 
     std::string ios;
-    if (iosContent != nil) fcm = [iosContent UTF8String];
+    if (iosContent != nil) ios = [iosContent UTF8String];
 
     std::string facebook;
     if (facebookContent != nil) facebook = [facebookContent UTF8String];
